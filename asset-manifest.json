@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stans-assets/static/css/main.7acaea2f.css",
+    "main.js": "/stans-assets/static/js/main.07d3183d.js",
+    "index.html": "/stans-assets/index.html",
+    "main.7acaea2f.css.map": "/stans-assets/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/stans-assets/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
