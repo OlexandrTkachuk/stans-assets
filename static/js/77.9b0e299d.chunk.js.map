@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/77.9b0e299d.chunk.js","mappings":"0JAIA,UAJgB,WACd,OAAO,qCACR,C","sources":["pages/AboutUs.jsx"],"sourcesContent":["const AboutUs = () => {\n  return <div>About Us</div>;\n};\n\nexport default AboutUs;\n"],"names":[],"sourceRoot":""}

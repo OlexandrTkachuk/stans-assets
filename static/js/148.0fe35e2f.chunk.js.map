@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/148.0fe35e2f.chunk.js","mappings":"2JAIA,UAJa,WACX,OAAO,iCACR,C","sources":["pages/Blog.jsx"],"sourcesContent":["const Blog = () => {\n  return <div>Blog</div>;\n};\n\nexport default Blog;\n"],"names":[],"sourceRoot":""}
