@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stans-assets/static/css/main.2b3e4083.css",
-    "main.js": "/stans-assets/static/js/main.071c700a.js",
-    "static/js/43.6ae56f5b.chunk.js": "/stans-assets/static/js/43.6ae56f5b.chunk.js",
+    "main.js": "/stans-assets/static/js/main.fda0fd4a.js",
+    "static/js/799.d1e74402.chunk.js": "/stans-assets/static/js/799.d1e74402.chunk.js",
     "static/js/77.9b0e299d.chunk.js": "/stans-assets/static/js/77.9b0e299d.chunk.js",
     "static/js/458.bc9631de.chunk.js": "/stans-assets/static/js/458.bc9631de.chunk.js",
     "static/js/187.cc00576a.chunk.js": "/stans-assets/static/js/187.cc00576a.chunk.js",
@@ -15,11 +15,11 @@
     "static/js/248.9d090d3e.chunk.js": "/stans-assets/static/js/248.9d090d3e.chunk.js",
     "static/js/487.51369850.chunk.js": "/stans-assets/static/js/487.51369850.chunk.js",
     "static/js/345.c2c9d836.chunk.js": "/stans-assets/static/js/345.c2c9d836.chunk.js",
-    "static/js/128.78c9f925.chunk.js": "/stans-assets/static/js/128.78c9f925.chunk.js",
+    "static/js/893.95f8dfdd.chunk.js": "/stans-assets/static/js/893.95f8dfdd.chunk.js",
     "index.html": "/stans-assets/index.html",
     "main.2b3e4083.css.map": "/stans-assets/static/css/main.2b3e4083.css.map",
-    "main.071c700a.js.map": "/stans-assets/static/js/main.071c700a.js.map",
-    "43.6ae56f5b.chunk.js.map": "/stans-assets/static/js/43.6ae56f5b.chunk.js.map",
+    "main.fda0fd4a.js.map": "/stans-assets/static/js/main.fda0fd4a.js.map",
+    "799.d1e74402.chunk.js.map": "/stans-assets/static/js/799.d1e74402.chunk.js.map",
     "77.9b0e299d.chunk.js.map": "/stans-assets/static/js/77.9b0e299d.chunk.js.map",
     "458.bc9631de.chunk.js.map": "/stans-assets/static/js/458.bc9631de.chunk.js.map",
     "187.cc00576a.chunk.js.map": "/stans-assets/static/js/187.cc00576a.chunk.js.map",
@@ -32,10 +32,10 @@
     "248.9d090d3e.chunk.js.map": "/stans-assets/static/js/248.9d090d3e.chunk.js.map",
     "487.51369850.chunk.js.map": "/stans-assets/static/js/487.51369850.chunk.js.map",
     "345.c2c9d836.chunk.js.map": "/stans-assets/static/js/345.c2c9d836.chunk.js.map",
-    "128.78c9f925.chunk.js.map": "/stans-assets/static/js/128.78c9f925.chunk.js.map"
+    "893.95f8dfdd.chunk.js.map": "/stans-assets/static/js/893.95f8dfdd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b3e4083.css",
-    "static/js/main.071c700a.js"
+    "static/js/main.fda0fd4a.js"
   ]
 }
