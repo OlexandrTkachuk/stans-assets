@@ -11,7 +11,6 @@ export const Title = styled.h2`
   line-height: 1.73;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #194484;
   margin-bottom: 24px;
   text-align: center;
 `;
@@ -28,7 +27,8 @@ export const Text = styled.p`
 
 export const List = styled.ul`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+  gap: 50px;
 `;

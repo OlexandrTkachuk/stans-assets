@@ -44,6 +44,7 @@ export const MenuIcon = styled(HiMenu)`
   height: 30px;
   color: #fff;
   z-index: 999;
+  cursor: pointer;
 `;
 
 export const StyledLink = styled(NavLink)``;
