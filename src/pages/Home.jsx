@@ -1,5 +1,7 @@
+import Footer from 'components/Foooter/Footer';
 import HomeAchievements from 'components/HomePage/HomeAchievements/HomeAchievements';
 import HomeClatch from 'components/HomePage/HomeClatch/HomeClatch';
+import HomeContacts from 'components/HomePage/HomeContacts/HomeContacts';
 import HomeHero from 'components/HomePage/HomeHero/HomeHero';
 import HomePartners from 'components/HomePage/HomePartners/HomePartners';
 import HomeServices from 'components/HomePage/HomeServices/HomeServices';
@@ -8,7 +10,7 @@ import HomeTechnologies from 'components/HomePage/HomeTechnologies/HomeTechnolog
 
 const Home = () => {
   return (
-    <div>
+    <>
       <HomeHero />
       <HomeTechnologies />
       <HomeClatch />
@@ -16,7 +18,9 @@ const Home = () => {
       <HomeSponsor />
       <HomeAchievements />
       <HomePartners />
-    </div>
+      <HomeContacts />
+      <Footer />
+    </>
   );
 };
 
