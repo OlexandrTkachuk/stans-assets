@@ -42,6 +42,7 @@ export const NavList = styled.ul`
   flex-direction: column;
   justify-content: center;
   gap: 24px;
+  padding-left: 20px;
 `;
 
 export const StyledLink = styled(NavLink)`

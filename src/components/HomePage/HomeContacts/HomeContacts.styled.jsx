@@ -66,6 +66,7 @@ export const Form = styled.form`
   box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
   border-radius: 6px;
   padding: 40px 22px;
+  margin: 0 auto;
 `;
 
 export const Input = styled.input`
