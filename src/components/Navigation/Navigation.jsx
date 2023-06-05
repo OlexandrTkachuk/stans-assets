@@ -25,7 +25,7 @@ const Navigation = () => {
           close
         </ButtonClose>
 
-        <List>
+        <List onClick={() => dispatch(toggleMenuMode())}>
           <Item>
             <StyledLink to="/services">services</StyledLink>
           </Item>

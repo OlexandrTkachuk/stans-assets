@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
+export const Wrapper = styled.div`
+  padding: 0 30px;
+`;
+
 export const Title = styled.h2`
   font-weight: 700;
   font-size: 22px;
@@ -41,6 +45,7 @@ export const Text = styled.p`
   line-height: 1.62;
   color: #242424;
   text-align: center;
+  margin-bottom: 20px;
 `;
 
 export const Image = styled.img`

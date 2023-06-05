@@ -1,35 +1,24 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-  margin: 54px auto 80px;
-  padding: 0 30px;
+  padding: 0 28px;
 `;
 
 export const Title = styled.h2`
   font-weight: 700;
   font-size: 22px;
-  line-height: 1.73;
+  line-height: 24px;
+  text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin-bottom: 24px;
-  text-align: center;
   color: #194484;
-`;
-
-export const Text = styled.p`
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 1.56;
-  text-align: center;
-  color: #242424;
-  text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
 `;
 
 export const List = styled.ul`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
-  gap: 50px;
+  gap: 42px;
 `;

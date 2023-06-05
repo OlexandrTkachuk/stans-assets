@@ -5,11 +5,12 @@ import {
   SubTitle,
   Text,
   Title,
+  Wrapper,
 } from './HomeServices.styled';
 
 const HomeServices = () => {
   return (
-    <div>
+    <Wrapper>
       <Title>Services</Title>
 
       <List>
@@ -60,7 +61,7 @@ const HomeServices = () => {
           </Text>
         </Item>
       </List>
-    </div>
+    </Wrapper>
   );
 };
 

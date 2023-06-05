@@ -15,18 +15,20 @@ export const HeroBackground = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 340px;
+  min-height: 340px;
+  height: auto;
 `;
 
 export const HeroVector = styled.div`
   position: absolute;
   top: -92px;
   background-image: url(https://i.ibb.co/0JYbyMG/hero-vector-mobile.png);
-  background-position: end;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 370px;
+  min-height: 370px;
+  height: auto;
 `;
 
 export const LogoWrapper = styled.div`
