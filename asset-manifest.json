@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stans-assets/static/css/main.2b3e4083.css",
-    "main.js": "/stans-assets/static/js/main.a7acc92d.js",
-    "static/js/984.1cd4027d.chunk.js": "/stans-assets/static/js/984.1cd4027d.chunk.js",
+    "main.js": "/stans-assets/static/js/main.7b9906d7.js",
+    "static/js/984.93c7fc93.chunk.js": "/stans-assets/static/js/984.93c7fc93.chunk.js",
     "static/js/77.9b0e299d.chunk.js": "/stans-assets/static/js/77.9b0e299d.chunk.js",
     "static/js/458.bc9631de.chunk.js": "/stans-assets/static/js/458.bc9631de.chunk.js",
     "static/js/187.cc00576a.chunk.js": "/stans-assets/static/js/187.cc00576a.chunk.js",
@@ -18,8 +18,8 @@
     "static/js/42.c1c82b33.chunk.js": "/stans-assets/static/js/42.c1c82b33.chunk.js",
     "index.html": "/stans-assets/index.html",
     "main.2b3e4083.css.map": "/stans-assets/static/css/main.2b3e4083.css.map",
-    "main.a7acc92d.js.map": "/stans-assets/static/js/main.a7acc92d.js.map",
-    "984.1cd4027d.chunk.js.map": "/stans-assets/static/js/984.1cd4027d.chunk.js.map",
+    "main.7b9906d7.js.map": "/stans-assets/static/js/main.7b9906d7.js.map",
+    "984.93c7fc93.chunk.js.map": "/stans-assets/static/js/984.93c7fc93.chunk.js.map",
     "77.9b0e299d.chunk.js.map": "/stans-assets/static/js/77.9b0e299d.chunk.js.map",
     "458.bc9631de.chunk.js.map": "/stans-assets/static/js/458.bc9631de.chunk.js.map",
     "187.cc00576a.chunk.js.map": "/stans-assets/static/js/187.cc00576a.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.2b3e4083.css",
-    "static/js/main.a7acc92d.js"
+    "static/js/main.7b9906d7.js"
   ]
 }
