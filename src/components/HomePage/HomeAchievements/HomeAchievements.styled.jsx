@@ -22,3 +22,4 @@ export const List = styled.ul`
   align-items: center;
   gap: 42px;
 `;
+
