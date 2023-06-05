@@ -11,7 +11,7 @@ const StarRate = () => {
         const currentRating = index + 1;
 
         return (
-          <label>
+          <label key={index}>
             <input
               type="radio"
               name="rating"

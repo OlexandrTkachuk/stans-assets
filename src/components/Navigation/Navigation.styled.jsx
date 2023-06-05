@@ -44,6 +44,7 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   padding-left: 40px;
+  
 `;
 
 export const Item = styled.li`
@@ -56,6 +57,11 @@ export const SubItem = styled.li`
 `;
 
 export const StyledLink = styled(NavLink)`
+  color: #08a4e4;
+  text-transform: uppercase;
+`;
+
+export const AnchorLink = styled.a`
   color: #08a4e4;
   text-transform: uppercase;
 `;
