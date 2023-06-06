@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/248.9d090d3e.chunk.js","mappings":"2JAIA,UAJiB,WACf,OAAO,qCACR,C","sources":["pages/Services.jsx"],"sourcesContent":["const Services = () => {\n  return <div>Services</div>;\n};\n\nexport default Services;\n"],"names":[],"sourceRoot":""}
