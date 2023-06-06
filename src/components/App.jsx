@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
+import ScrollToTop from 'utils/scrollToTop';
 
 // pages
 const HomePage = lazy(() => import('../pages/Home'));
@@ -29,6 +30,7 @@ const ArDev = lazy(() => import('./ServicesPage/ArDev/ArDev'));
 const App = () => {
   return (
     <div>
+      <ScrollToTop />
       <Navigation />
 
       <Suspense fallback="Loading...">

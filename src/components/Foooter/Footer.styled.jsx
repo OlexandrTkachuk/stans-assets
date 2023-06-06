@@ -54,7 +54,7 @@ export const StyledLink = styled(NavLink)`
   color: #ffffff;
 `;
 
-export const SubLink = styled.a`
+export const SubLink = styled(NavLink)`
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;

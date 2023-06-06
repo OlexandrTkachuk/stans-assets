@@ -21,28 +21,19 @@ const Footer = () => {
     <FooterWrapper>
       <Wrapper>
         <Link to="/">
-          <Logo
-            src="https://i.ibb.co/NrtHgb0/logo-mobile.png"
-            alt="footer logo"
-          />
+          <Logo src="https://i.ibb.co/NrtHgb0/logo-mobile.png" alt="footer logo" />
         </Link>
 
         <List>
           <li>
             <ContactLink to="https://www.facebook.com/">
-              <Icon
-                src="https://i.ibb.co/y5gQKdy/Vector-1.png"
-                alt="facebook"
-              />
+              <Icon src="https://i.ibb.co/y5gQKdy/Vector-1.png" alt="facebook" />
             </ContactLink>
           </li>
 
           <li>
             <ContactLink to="https://www.linkedin.com/feed/">
-              <Icon
-                src="https://i.ibb.co/Q6tQY8f/Vector-2.png"
-                alt="linkedin"
-              />
+              <Icon src="https://i.ibb.co/Q6tQY8f/Vector-2.png" alt="linkedin" />
             </ContactLink>
           </li>
 
@@ -67,21 +58,21 @@ const Footer = () => {
 
         <NavList>
           <Item>
-            <StyledLink>Services</StyledLink>
+            <StyledLink to="/services">Services</StyledLink>
 
-            <SubLink href="">Mobile Application Development</SubLink>
-            <SubLink href="">Game Development Outsourcing</SubLink>
-            <SubLink href="">VR App Development</SubLink>
-            <SubLink href="">Dedicated Developers</SubLink>
-            <SubLink href="">SDK Development</SubLink>
-            <SubLink href="">3D Modeling services</SubLink>
+            <SubLink to="/services/mobileDev">Mobile Application Development</SubLink>
+            <SubLink to="/services/gameDev">Game Development Outsourcing</SubLink>
+            <SubLink to="/services/vrDev">VR App Development</SubLink>
+            <SubLink to="/services/dedicatedDev">Dedicated Developers</SubLink>
+            <SubLink to="/services/sdkDev">SDK Development</SubLink>
+            <SubLink to="/services/3dModeling">3D Modeling services</SubLink>
           </Item>
           <Item>
             <StyledLink>Technologies</StyledLink>
 
-            <SubLink href="">Android</SubLink>
-            <SubLink href="">IOS</SubLink>
-            <SubLink href="">Unity</SubLink>
+            <SubLink to="">Android</SubLink>
+            <SubLink to="">IOS</SubLink>
+            <SubLink to="">Unity</SubLink>
           </Item>
           <Item>
             <StyledLink>Products</StyledLink>
@@ -95,9 +86,9 @@ const Footer = () => {
           <Item>
             <StyledLink>About us</StyledLink>
 
-            <SubLink href="">Contacts</SubLink>
-            <SubLink href="">Team</SubLink>
-            <SubLink href="">Join the Team</SubLink>
+            <SubLink to="">Contacts</SubLink>
+            <SubLink to="">Team</SubLink>
+            <SubLink to="">Join the Team</SubLink>
           </Item>
         </NavList>
       </Wrapper>
