@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mobile Application Development",
+    "url": "https://i.ibb.co/NxyRVkS/smartphone-1.png",
+    "to": "mobileDev"
+  },
+  {
+    "name": "Game development outsourcing",
+    "url": "https://i.ibb.co/zHHvWF4/console.png",
+    "to": "gameDev"
+  },
+  {
+    "name": "vr app development",
+    "url": "https://i.ibb.co/0tK0F74/vrglasses.png",
+    "to": "vrDev"
+  },
+  {
+    "name": "Dedicated Developers",
+    "url": "https://i.ibb.co/rfs4F8G/persone.png",
+    "to": "dedicatedDev"
+  },
+  {
+    "name": "sdk development",
+    "url": "https://i.ibb.co/fSTvx2v/settings-1.png",
+    "to": "sdkDev"
+  },
+  {
+    "name": "sdk 3d modeling ",
+    "url": "https://i.ibb.co/k68kTwP/3d-1.png",
+    "to": "3dModeling"
+  },
+  {
+    "name": "ar app development",
+    "url": "https://i.ibb.co/YNLDHSb/virtual-1.png",
+    "to": "appDev"
+  }
+]

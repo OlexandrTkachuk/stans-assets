@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   width: 320px;
   margin: 0 auto;
   margin-top: 130px;
-  margin-bottom: 160px;
+  margin-bottom: 130px;
 `;
 
 export const Title = styled.h2`

@@ -50,8 +50,8 @@ export const Item = styled.li`
 
 export const StyledLink = styled.a`
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 20px;
   text-transform: capitalize;
   color: #242424;
 `;

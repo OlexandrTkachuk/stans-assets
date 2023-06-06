@@ -17,6 +17,15 @@ const ServicesPage = lazy(() => import('../pages/Services'));
 const TeamPage = lazy(() => import('../pages/Team'));
 const TechnologiesPage = lazy(() => import('../pages/Technologies'));
 
+// services
+const MobileDev = lazy(() => import('./ServicesPage/MobileDev/MobileDev'));
+const GameDev = lazy(() => import('./ServicesPage/GameDev/GameDev'));
+const VrDev = lazy(() => import('./ServicesPage/VrDev/VrDev'));
+const DedicatedDev = lazy(() => import('./ServicesPage/DedicatedDev/DedicatedDev'));
+const SDKDev = lazy(() => import('./ServicesPage/SDKDev/SDKDev'));
+const SDKModeling = lazy(() => import('./ServicesPage/SDKModeling/SDKModeling'));
+const ArDev = lazy(() => import('./ServicesPage/ArDev/ArDev'));
+
 const App = () => {
   return (
     <div>
@@ -25,6 +34,17 @@ const App = () => {
       <Suspense fallback="Loading...">
         <Routes>
           <Route path="/" element={<HomePage />} />
+
+          <Route path="/services" element={<ServicesPage />}>
+            <Route path="mobileDev" element={<MobileDev />} />
+            <Route path="gameDev" element={<GameDev />} />
+            <Route path="vrDev" element={<VrDev />} />
+            <Route path="dedicatedDev" element={<DedicatedDev />} />
+            <Route path="sdkDev" element={<SDKDev />} />
+            <Route path="3dModeling" element={<SDKModeling />} />
+            <Route path="appDev" element={<ArDev />} />
+          </Route>
+
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/article" element={<ArticlePage />} />
           <Route path="/author" element={<AuthorPage />} />
@@ -33,7 +53,6 @@ const App = () => {
           <Route path="/join" element={<JoinTheTeamPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/products" element={<ProductsPage />} />
-          <Route path="/services" element={<ServicesPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/technologies" element={<TechnologiesPage />} />
           <Route path="*" element={<NotFoundPage />} />

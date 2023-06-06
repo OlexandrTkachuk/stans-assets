@@ -11,7 +11,6 @@ import {
   ButtonContact,
   Item,
   SubItem,
-  AnchorLink,
 } from './Navigation.styled';
 
 const Navigation = () => {
@@ -31,19 +30,19 @@ const Navigation = () => {
           </Item>
 
           <SubItem>
-            <AnchorLink href="#game-dev">Game development</AnchorLink>
+            <StyledLink to="/services/gameDev">Game development</StyledLink>
           </SubItem>
 
           <SubItem>
-            <AnchorLink href="#sdk-dev">SDK development</AnchorLink>
+            <StyledLink to="/services/sdkDev">SDK development</StyledLink>
           </SubItem>
 
           <SubItem>
-            <AnchorLink href="#modeling">3D modeling services</AnchorLink>
+            <StyledLink to="/services/3dModeling">3D modeling services</StyledLink>
           </SubItem>
 
           <SubItem>
-            <AnchorLink href="#vr-dev">VR App development</AnchorLink>
+            <StyledLink to="/services/vrDev">VR App development</StyledLink>
           </SubItem>
 
           <Item>

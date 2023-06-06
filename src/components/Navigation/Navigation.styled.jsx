@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   left: 0px;
   z-index: 999;
   display: block;
-  width: 280px;
+  width: 300px;
   max-width: 100%;
   background: #ffffff;
   padding-top: 8px;
@@ -44,7 +44,6 @@ export const List = styled.ul`
   display: flex;
   flex-direction: column;
   padding-left: 40px;
-  
 `;
 
 export const Item = styled.li`

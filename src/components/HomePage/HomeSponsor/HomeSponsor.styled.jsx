@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 export const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  height: 380px;
-  padding: 80px 22px;
+  min-height: 380px;
+  padding: 70px 20px 80px 22px;
   background-image: url(https://i.ibb.co/RChKWqV/home-Sponsor-Vector-2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h2`
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.58;
   text-align: center;
   letter-spacing: 0.05em;
