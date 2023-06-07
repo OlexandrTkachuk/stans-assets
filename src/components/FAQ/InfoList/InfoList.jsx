@@ -1,35 +1,13 @@
-import { useState } from 'react';
 import faq from '../../../helpers/faq.json';
-import {
-  ArrowDown,
-  ArrowUp,
-  InfoItem,
-  InfoText,
-  InfoTitle,
-  List,
-} from './InfoList.styled';
+import InfoItem from '../InfoItem/InfoItem';
 
 const InfoList = () => {
-  const [isTextShow, setIsTextShow] = useState(false);
-
-  const switchTextStatus = () => setIsTextShow(prev => !prev);
-
   return (
-    <List>
-      {faq.map(({ id, post, name }) => (
-        <InfoItem id={id} key={id}>
-          <InfoTitle>{name}</InfoTitle>
-
-          {!isTextShow && <InfoText>{post}</InfoText>}
-
-          {isTextShow ? (
-            <ArrowUp onClick={switchTextStatus} />
-          ) : (
-            <ArrowDown onClick={switchTextStatus} />
-          )}
-        </InfoItem>
+    <ul>
+      {faq.map(item => (
+        <InfoItem key={item.id} item={item} />
       ))}
-    </List>
+    </ul>
   );
 };
 
