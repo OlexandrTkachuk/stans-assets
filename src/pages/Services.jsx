@@ -3,6 +3,7 @@ import HomeClatch from 'components/HomePage/HomeClatch/HomeClatch';
 import HomeContacts from 'components/HomePage/HomeContacts/HomeContacts';
 import HomeSponsor from 'components/HomePage/HomeSponsor/HomeSponsor';
 import Navbar from 'components/Navbar/Navbar';
+import ServicesProjects from 'components/ServicesPage/ServicesProjects/ServicesProjects';
 import ServicesTypes from 'components/ServicesPage/ServicesTypes/ServicesTypes';
 
 const Services = () => {
@@ -13,6 +14,7 @@ const Services = () => {
       <HomeClatch />
       <HomeSponsor />
       <HomeContacts />
+      <ServicesProjects />
       <Footer />
     </div>
   );
@@ -20,6 +22,4 @@ const Services = () => {
 
 export default Services;
 
-// https://i.ibb.co/rwbByKq/ar-app-developer.png
-// https://i.ibb.co/0hsT730/game-dev.png
-// https://i.ibb.co/T2Qtp26/mobile-app-dev.png
+
