@@ -1,3 +1,4 @@
+import FAQ from 'components/FAQ/FAQ';
 import Footer from 'components/Foooter/Footer';
 import HomeClatch from 'components/HomePage/HomeClatch/HomeClatch';
 import HomeContacts from 'components/HomePage/HomeContacts/HomeContacts';
@@ -15,11 +16,10 @@ const Services = () => {
       <HomeSponsor />
       <HomeContacts />
       <ServicesProjects />
+      <FAQ />
       <Footer />
     </div>
   );
 };
 
 export default Services;
-
-
