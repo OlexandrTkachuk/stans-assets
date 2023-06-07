@@ -1,7 +1,6 @@
 import faq from '../../helpers/faq.json';
 import { Item, Link, List, Title, Wrapper } from './FAQ.styled';
-
-console.log(faq);
+import InfoList from './InfoList/InfoList';
 
 const FAQ = () => {
   return (
@@ -15,6 +14,8 @@ const FAQ = () => {
           </Item>
         ))}
       </List>
+
+      <InfoList />
     </Wrapper>
   );
 };

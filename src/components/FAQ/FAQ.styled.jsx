@@ -53,10 +53,11 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
+  position: relative;
   max-width: 300px;
   transition: all 0.2s linear;
   text-align: start;
-  padding-left: 12px;
+  padding-left: 32px;
 
   &:hover {
     transform: scale(1.05);
@@ -68,8 +69,16 @@ export const Link = styled.a`
   font-size: 18px;
   line-height: 1.56;
   color: #0d6eb7;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #0d6eb7;
+    border-radius: 50%;
+  }
 `;
-
-export const InfoList = styled.ul``;
-
-export const InfoItem = styled.li``;
