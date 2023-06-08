@@ -6,8 +6,6 @@ const InfoItem = ({ item }) => {
   const { id, name, post } = item;
   const switchTextStatus = () => setIsTextShow(prev => !prev);
 
-  console.log(id, post, name);
-
   return (
     <Item id={id} key={id}>
       <InfoTitle>{name}</InfoTitle>

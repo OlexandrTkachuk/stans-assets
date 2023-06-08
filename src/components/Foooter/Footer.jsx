@@ -61,18 +61,23 @@ const Footer = () => {
             <StyledLink to="/services">Services</StyledLink>
 
             <SubLink to="/services/mobileDev">Mobile Application Development</SubLink>
+
             <SubLink to="/services/gameDev">Game Development Outsourcing</SubLink>
+
             <SubLink to="/services/vrDev">VR App Development</SubLink>
+
             <SubLink to="/services/dedicatedDev">Dedicated Developers</SubLink>
+
             <SubLink to="/services/sdkDev">SDK Development</SubLink>
+
             <SubLink to="/services/3dModeling">3D Modeling services</SubLink>
           </Item>
           <Item>
             <StyledLink>Technologies</StyledLink>
 
-            <SubLink to="">Android</SubLink>
-            <SubLink to="">IOS</SubLink>
-            <SubLink to="">Unity</SubLink>
+            <SubLink to="/technologies/android">Android</SubLink>
+            <SubLink to="/technologies/ios">IOS</SubLink>
+            <SubLink to="/technologies/unity">Unity</SubLink>
           </Item>
           <Item>
             <StyledLink>Products</StyledLink>

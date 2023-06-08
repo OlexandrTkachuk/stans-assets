@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
+import LoadingSpinner from 'components/LoadingSpinner/LoadingSpinner';
 
 import services from '../../../helpers/services.json';
 import {
@@ -15,7 +16,7 @@ import {
 const ServicesTypes = () => {
   return (
     <Wrapper>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<LoadingSpinner />}>
         <Outlet />
       </Suspense>
 

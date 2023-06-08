@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
 import ScrollToTop from 'utils/scrollToTop';
+import LoadingSpinner from './LoadingSpinner/LoadingSpinner';
 
 // pages
 const HomePage = lazy(() => import('../pages/Home'));
@@ -27,13 +28,18 @@ const SDKDev = lazy(() => import('./ServicesPage/SDKDev/SDKDev'));
 const SDKModeling = lazy(() => import('./ServicesPage/SDKModeling/SDKModeling'));
 const ArDev = lazy(() => import('./ServicesPage/ArDev/ArDev'));
 
+// technologies
+const AndroidPage = lazy(() => import('./TechnologiesPage/Android/Android'));
+const IOSPage = lazy(() => import('./TechnologiesPage/IOS/IOS'));
+const UnityPage = lazy(() => import('./TechnologiesPage/Unity/Unity'));
+
 const App = () => {
   return (
     <div>
       <ScrollToTop />
       <Navigation />
 
-      <Suspense fallback="Loading...">
+      <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
 
@@ -47,6 +53,12 @@ const App = () => {
             <Route path="appDev" element={<ArDev />} />
           </Route>
 
+          <Route path="/technologies" element={<TechnologiesPage />}>
+            <Route path="android" element={<AndroidPage />} />
+            <Route path="ios" element={<IOSPage />} />
+            <Route path="unity" element={<UnityPage />} />
+          </Route>
+
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/article" element={<ArticlePage />} />
           <Route path="/author" element={<AuthorPage />} />
@@ -56,7 +68,6 @@ const App = () => {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/team" element={<TeamPage />} />
-          <Route path="/technologies" element={<TechnologiesPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>

@@ -50,15 +50,15 @@ const Navigation = () => {
           </Item>
 
           <SubItem>
-            <StyledLink>Android</StyledLink>
+            <StyledLink to="/technologies/android">Android</StyledLink>
           </SubItem>
 
           <SubItem>
-            <StyledLink>IOS</StyledLink>
+            <StyledLink to="/technologies/ios">IOS</StyledLink>
           </SubItem>
 
           <SubItem>
-            <StyledLink>Unity</StyledLink>
+            <StyledLink to="/technologies/unity">Unity</StyledLink>
           </SubItem>
 
           <Item>
