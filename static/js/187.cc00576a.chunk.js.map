@@ -1,1 +1,1 @@
-{"version":3,"file":"static/js/187.cc00576a.chunk.js","mappings":"2JAIA,UAJe,WACb,OAAO,mCACR,C","sources":["pages/Author.jsx"],"sourcesContent":["const Author = () => {\n  return <div>Author</div>;\n};\n\nexport default Author;\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/js/187.cc00576a.chunk.js","mappings":"2JAIA,UAJe,WACb,OAAO,yBAAK,UACb,C","sources":["pages/Author.jsx"],"sourcesContent":["const Author = () => {\n  return <div>Author</div>;\n};\n\nexport default Author;\n"],"names":[],"sourceRoot":""}

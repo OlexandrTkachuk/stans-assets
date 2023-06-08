@@ -1,1 +1,1 @@
-{"version":3,"file":"static/js/487.51369850.chunk.js","mappings":"2JAIA,UAJa,WACX,OAAO,iCACR,C","sources":["pages/Team.jsx"],"sourcesContent":["const Team = () => {\n  return <div>Team</div>;\n};\n\nexport default Team;\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/js/487.51369850.chunk.js","mappings":"2JAIA,UAJa,WACX,OAAO,yBAAK,QACb,C","sources":["pages/Team.jsx"],"sourcesContent":["const Team = () => {\n  return <div>Team</div>;\n};\n\nexport default Team;\n"],"names":[],"sourceRoot":""}

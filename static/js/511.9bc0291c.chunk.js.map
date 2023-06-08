@@ -1,1 +1,1 @@
-{"version":3,"file":"static/js/511.9bc0291c.chunk.js","mappings":"2JAIA,UAJiB,WACf,OAAO,qCACR,C","sources":["pages/Products.jsx"],"sourcesContent":["const Products = () => {\n  return <div>Products</div>;\n};\n\nexport default Products;\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/js/511.9bc0291c.chunk.js","mappings":"2JAIA,UAJiB,WACf,OAAO,yBAAK,YACb,C","sources":["pages/Products.jsx"],"sourcesContent":["const Products = () => {\n  return <div>Products</div>;\n};\n\nexport default Products;\n"],"names":[],"sourceRoot":""}

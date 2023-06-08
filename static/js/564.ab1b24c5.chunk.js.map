@@ -1,1 +1,1 @@
-{"version":3,"file":"static/js/564.ab1b24c5.chunk.js","mappings":"2JAIA,UAJkB,WAChB,OAAO,sCACR,C","sources":["pages/Portfolio.jsx"],"sourcesContent":["const Portfolio = () => {\n  return <div>Portfolio</div>;\n};\n\nexport default Portfolio;\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/js/564.ab1b24c5.chunk.js","mappings":"2JAIA,UAJkB,WAChB,OAAO,yBAAK,aACb,C","sources":["pages/Portfolio.jsx"],"sourcesContent":["const Portfolio = () => {\n  return <div>Portfolio</div>;\n};\n\nexport default Portfolio;\n"],"names":[],"sourceRoot":""}
