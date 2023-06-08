@@ -1,12 +1,5 @@
 import { useState } from 'react';
-import {
-  Button,
-  ButtonWrapper,
-  Item,
-  List,
-  Title,
-  Wrapper,
-} from './HomePartners.styled';
+import { Button, ButtonWrapper, Item, List, Title, Wrapper } from './HomePartners.styled';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
 const fullList = [

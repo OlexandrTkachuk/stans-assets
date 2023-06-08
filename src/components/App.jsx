@@ -59,6 +59,8 @@ const App = () => {
             <Route path="unity" element={<UnityPage />} />
           </Route>
 
+          <Route path="/products" element={<ProductsPage />} />
+
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/article" element={<ArticlePage />} />
           <Route path="/author" element={<AuthorPage />} />
@@ -66,7 +68,6 @@ const App = () => {
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="/join" element={<JoinTheTeamPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/products" element={<ProductsPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
