@@ -62,6 +62,7 @@ export const UserWrapper = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto 30px;
+  width: 100%;
 `;
 
 export const UserAvatar = styled.img`

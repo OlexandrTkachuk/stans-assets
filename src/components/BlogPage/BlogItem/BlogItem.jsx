@@ -13,7 +13,7 @@ import {
   TimeIcon,
   TimeWrapper,
   UserAvatar,
-  UserDate,
+  // UserDate,
   UserName,
   UserWrapper,
   ViewIcon,
@@ -22,8 +22,16 @@ import {
 
 const BlogItem = ({ item }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const { time, views, imageUrl, userAvatarUrl, userName, userDate, title, text } =
-    item[currentIndex];
+  const {
+    time,
+    views,
+    imageUrl,
+    userAvatarUrl,
+    userName,
+    // userDate,
+    title,
+    text,
+  } = item[currentIndex];
 
   const handleLeftArrowClick = () => {
     if (currentIndex <= 0) {
@@ -83,7 +91,7 @@ const BlogItem = ({ item }) => {
 
           <UserName>{userName}s</UserName>
 
-          <UserDate>{userDate}</UserDate>
+          {/* <UserDate>{userDate}</UserDate> */}
         </UserWrapper>
 
         <ItemTitle>{checkTitleLength()}</ItemTitle>
