@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 
+
 export const Wrapper = styled.div`
   width: 320px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
 `;
 
 export const Title = styled.h1`
@@ -13,10 +14,13 @@ export const Title = styled.h1`
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #194484;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 `;
 
-export const Image = styled.img`
-  width: 320px;
-  margin: 0 auto;
+export const List = styled.ul`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 `;
