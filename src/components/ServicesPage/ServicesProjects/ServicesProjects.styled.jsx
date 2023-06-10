@@ -1,14 +1,12 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
-  background-image: url(https://i.ibb.co/pXnwqNY/Projects-Vector.png);
   width: 100%;
-  min-height: 1790px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 80px;
-  padding: 140px 30px 180px;
+  padding: 40px 30px 80px;
 `;
 
 export const Title = styled.h2`
@@ -31,11 +29,11 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  max-width: 320px;
+  min-width: 320px;
   background: #ffffff;
   box-shadow: 0px 3px 16px 2px rgba(29, 51, 107, 0.15);
   border-radius: 16px;
-  max-height: 390px;
+  min-height: 390px;
 `;
 
 export const ImageWrapper = styled.div``;
